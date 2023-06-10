@@ -1,5 +1,10 @@
 ### Kurulum Aşamaları
 
+0. Composer ile gerekli paketleri yükleyin.
+```
+composer update && cd third_party_api && composer update && cd ..
+```
+
 1. Aşağıdaki komut ile docker build alıp sistemi ayağa kaldırın.
 ```
 docker-compose up -d
